@@ -1,4 +1,4 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://creast.in/"
 languageCode  = "en-us"
 title         = "CrEAST DBIT"
 theme         = "roxo"
@@ -24,9 +24,13 @@ summarylength = 25
     url     = "blog"
     weight  = 4
   [[menu.nav]]
+      name    = "Moodle"
+      url     = "moodle.creast.in"
+      weight  = 5
+  [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 5
+    weight  = 6
 
 # Site Params
 [params]
@@ -55,18 +59,18 @@ summarylength = 25
     [[params.contactForm.projectType]]
       value = "wd"
       title  = "Web Design"
-  
+
   # Navbar Action Button
   [params.navAction]
     status  = true
     name    = "Get in touch"
     url     = "contact"
-  
+
 
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
+    background_image      = "images/backgrounds/background.jpeg"
     heading               = "Democratizing STEM Education"
     tagline               = "Make Break Remake"
     primary_button        = "See Our Works"
